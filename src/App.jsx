@@ -4,6 +4,7 @@ import { Toaster } from 'react-hot-toast'
 import Home from "./pages/Home"
 import EditorPage from "./pages/EditorPage"
 
+
 function App() {
 
   return (
@@ -23,7 +24,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/editor/:roomID" element={<EditorPage />}></Route>
+
+          //!here
+          <Route path="/editor/:roomId" element={<EditorPage />}></Route>
         </Routes>
       </BrowserRouter>
     </>

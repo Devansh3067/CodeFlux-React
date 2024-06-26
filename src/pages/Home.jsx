@@ -23,6 +23,7 @@ const Home = () => {
         }
         navigate(`/editor/${roomId}`, {
             state: {
+                roomId,
                 userName,
             }
         })
@@ -38,8 +39,8 @@ const Home = () => {
         <div className='homePageWrapper'>
             <div className="formWrapper">
                 <div className="formHead">
-                    <img src="public\Assets\CodeFlux_transparent.png" alt="Code Flux Logo" className='logoImg' />
-                    <img src="public\Assets\CodeFluxName_transparent.png" alt="Code Flux Name" className='logoImgName' />
+                    <img src="Assets\CodeFlux_transparent.png" alt="Code Flux Logo" className='logoImg' />
+                    <img src="Assets\CodeFluxName_transparent.png" alt="Code Flux Name" className='logoImgName' />
                 </div>
                 <h4 className='mainLabel'>Paste invitation room ID</h4>
                 <div className="inputGroup">
