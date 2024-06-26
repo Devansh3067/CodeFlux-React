@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.homePageWrapper {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formWrapper {
+    background: #2e2e2f;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+}
+
+.formWrapper a {
+    color: rgb(58, 135, 222);
+}
+
+
+.formHead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logoImg {
+    height: 100px;
+    max-width: 80%;
+}
+
+.logoImgName {
+    height: 55px;
+    max-width: 80%;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBox {
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn {
+    border: none;
+    padding: 5px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.joinBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: auto;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.joinBtn:hover {
+    background: rgba(0, 119, 255, 0.753);
+    cursor: pointer;
+}
+
+.createInfo {
+    /* color:red; */
+   padding: 20px;
+}
+
+.createNewBtn{
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
