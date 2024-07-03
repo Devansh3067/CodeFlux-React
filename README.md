@@ -18,7 +18,6 @@ CodeFlux is a real-time collaborative code editor built with React and Socket.io
 - [🚀 Usage](#-usage)
 - [📁 Project Structure](#-project-structure)
 - [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
 - [📬 Contact](#-contact)
 
 ## 📖 Introduction
