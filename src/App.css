@@ -93,79 +93,12 @@ footer {
     bottom: 0;
 }
 
-/* .editorPageWrap {
-    display: flex;
-    height: 97.5vh;
-}
-
-.aside {
-    width: 40vh;
-    background: #2e2e2f;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-}
-
-.asideInner {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.clientList {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-    padding: 16px;
-}
-
-.client {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-weight: bold;
-}
-
-.logo {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 2px solid rgb(99, 93, 93);
-}
-
-.userName {
-    width: 50%;
-    text-align: center;
-}
-
-.leaveBtn {
-    margin-top: 20px;
-    background: rgb(58, 135, 222);
-}
-
-#realTimeEditor {
-    display: none;
-}
-
-
-.CodeMirror {
-    min-height: calc(100vh - 20px);
-    font-size: 20px;
-    line-height: 1.6;
-    padding-top: 20px;
-}
-
-.editorWrap {
-    height: 20px;
-    width: 100%;
-} */
 
 .editorPageWrap {
     display: flex;
     height: 97.2vh;
     flex-direction: column;
+    /* background-color: #1D1D1B; */
 }
 
 .aside {
@@ -244,12 +177,7 @@ footer {
     opacity: 0.8;
 }
 
-#realTimeEditor {
-    display: none;
-}
-
 .CodeMirror {
-    height: auto;
     font-size: 20px;
     line-height: 1.6;
     position: relative;
@@ -258,10 +186,41 @@ footer {
 }
 
 .editorWrap {
+    /* background-color: blue; */
     flex: 1;
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.editor {
+    /* height:100%;s */
+    /* background-color: red; */
+}
+
+.compiler {
+    /* display:flex; */
+    height: 60%;
+    /* background-color: red; */
+}
+
+.inputWrap,
+.outputWrap {
+    height: 49%;
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.031);
+    border-radius: 5px;
+    background-color: #1D1D1B;
+    text-align: center;
+    font-weight: bold;
+}
+
+.input,.output{
+    height:80%;
+    width:99%;
+    background-color: #1D1D1B;
+    border: none;
+    font-size: 30px;
 }
 
 @media (min-width: 768px) {
