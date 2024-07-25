@@ -26,10 +26,10 @@ CodeFlux enables real-time code collaboration, making it easier for teams to wor
 
 ## ✨ Features
 
-- ⚡ Real-time code synchronization
-- 👥 Collaborative editing
-- 🖥️ User-friendly and responsive interface
-- ⚙️ Easy setup and deployment
+- ⚡ Real-time code synchronization.
+- 👥 Collaborative editing.
+- 🖥️ User-friendly and responsive interface.
+- ⚙️ Easy setup and deployment.
 
 ## 🔧 Getting Started
 
